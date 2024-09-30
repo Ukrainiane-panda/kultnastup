@@ -1,0 +1,34 @@
+.footer {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+  }
+
+  &__logo {
+    height: 74px;
+    width: 100%;
+    background: url(../icons/Logo_footer.svg) no-repeat;
+    background-size: contain;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    margin-right: 74px;
+
+    &--img {
+      height: 74px;
+      width: 74px;
+      object-fit: contain;
+
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

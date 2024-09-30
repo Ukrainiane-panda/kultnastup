@@ -1,0 +1,20 @@
+.data {
+  &__title {
+    font-size: 57px;
+    font-weight: light;
+    line-height: 74.1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #040603;
+
+
+  }
+
+  &__time {
+    font-size: 44px;
+    font-weight: medium;
+    line-height: 57.2px;
+    text-align: left;
+    margin-bottom: 17px;
+  }
+}

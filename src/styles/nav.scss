@@ -1,0 +1,62 @@
+.nav {
+  border-top: 2px solid #040603;
+  border-bottom: 2px solid #040603;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  &__item {
+    border-left: 2px solid #040603;
+    padding: 22px 0 17px;
+    cursor: pointer;
+
+    &:last-child {
+      border-right: 2px solid #040603;
+    }
+  }
+  &__link {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #040603;
+    font-weight: bold;
+    padding: 22px 35px 17px;
+    transition: all 0.3;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+
+  &__button {
+    border-left: 2px solid #040603;
+    border-right: 2px solid #040603;
+    padding: 22px 35px 17px;
+    background-color: #040603;
+    color: #DBDBD7;
+
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      text-decoration: underline;
+      background-color: #6522BC;
+    }
+
+  }
+}

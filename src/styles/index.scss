@@ -1,0 +1,73 @@
+@import './utils/vars';
+@import './manifest.scss';
+@import './logo.scss';
+@import './nav.scss';
+@import './data.scss';
+@import './program.scss';
+@import './about.scss';
+@import './footer.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(90deg, #FBBD0A 0%, #F9B413 7.73%, #F18F34 36.22%, #6522BC 93.54%, #5616CA 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  margin: 65px 0;
+  
+}
+
+.wrapper {
+  padding: 0 135px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.background-layer {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 28px);
+  height: calc(100% - 28px);
+  background: #DBDBD7;
+  border: 2px solid #000000;
+  z-index: 1;
+
+}
+
+.content-layer {
+  width: calc(100% - 28px);
+  background-color: #fff;
+  border: 2px solid #000000;
+  padding: 54px 65px 76px;
+  z-index: 2;
+  margin-top: 28px;
+
+  &--grey {
+    background-color: #DBDBD7;
+
+  }
+
+  &--dark {
+    background-color: #1E1E1E;
+    color: #fff;
+  }
+}
