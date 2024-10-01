@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/kultnastup/static/css/main.7540bdfa.css",
+    "main.css": "/kultnastup/static/css/main.8cf469c5.css",
     "main.js": "/kultnastup/static/js/main.7387ad66.js",
+    "static/media/Montserrat-ExtraBold.ttf": "/kultnastup/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
+    "static/media/Montserrat-Bold.ttf": "/kultnastup/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/kultnastup/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Medium.ttf": "/kultnastup/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Light.ttf": "/kultnastup/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/kultnastup/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Logo_footer.svg": "/kultnastup/static/media/Logo_footer.a482e83dcac5e94360f3.svg",
     "static/media/logo.svg": "/kultnastup/static/media/logo.d4e5cefffeb6f418b020.svg",
     "index.html": "/kultnastup/index.html",
     "static/media/arrow.svg": "/kultnastup/static/media/arrow.0f2daf63463fc6b2b009.svg",
     "static/media/arrow_hover.svg": "/kultnastup/static/media/arrow_hover.ac434a16e137c5b90af6.svg",
-    "main.7540bdfa.css.map": "/kultnastup/static/css/main.7540bdfa.css.map",
+    "main.8cf469c5.css.map": "/kultnastup/static/css/main.8cf469c5.css.map",
     "main.7387ad66.js.map": "/kultnastup/static/js/main.7387ad66.js.map"
   },
   "entrypoints": [
-    "static/css/main.7540bdfa.css",
+    "static/css/main.8cf469c5.css",
     "static/js/main.7387ad66.js"
   ]
 }
