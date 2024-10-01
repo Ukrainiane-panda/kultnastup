@@ -31,7 +31,7 @@
     color: #040603;
     font-weight: 500;
     padding: 22px 35px 17px;
-    transition: all 0.3;
+    transition: text-decoration 0.3;
 
     &:hover {
       text-decoration: underline;
@@ -52,7 +52,7 @@
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: transform 0.3s;
 
     &:hover {
       text-decoration: underline;
