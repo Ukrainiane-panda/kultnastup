@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kultnastup/static/css/main.5a8a9b71.css",
-    "main.js": "/kultnastup/static/js/main.a645f7b1.js",
+    "main.css": "/kultnastup/static/css/main.97e41ab7.css",
+    "main.js": "/kultnastup/static/js/main.45416e05.js",
     "static/media/Logo_footer.svg": "/kultnastup/static/media/Logo_footer.a482e83dcac5e94360f3.svg",
     "static/media/logo.svg": "/kultnastup/static/media/logo.d4e5cefffeb6f418b020.svg",
     "index.html": "/kultnastup/index.html",
     "static/media/arrow.svg": "/kultnastup/static/media/arrow.0f2daf63463fc6b2b009.svg",
     "static/media/arrow_hover.svg": "/kultnastup/static/media/arrow_hover.ac434a16e137c5b90af6.svg",
-    "main.5a8a9b71.css.map": "/kultnastup/static/css/main.5a8a9b71.css.map",
-    "main.a645f7b1.js.map": "/kultnastup/static/js/main.a645f7b1.js.map"
+    "main.97e41ab7.css.map": "/kultnastup/static/css/main.97e41ab7.css.map",
+    "main.45416e05.js.map": "/kultnastup/static/js/main.45416e05.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a8a9b71.css",
-    "static/js/main.a645f7b1.js"
+    "static/css/main.97e41ab7.css",
+    "static/js/main.45416e05.js"
   ]
 }
