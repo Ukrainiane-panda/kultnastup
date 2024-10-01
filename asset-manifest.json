@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kultnastup/static/css/main.5c17b6e7.css",
-    "main.js": "/kultnastup/static/js/main.f24ac66e.js",
+    "main.js": "/kultnastup/static/js/main.9067f2bc.js",
     "static/media/Logo_footer.svg": "/kultnastup/static/media/Logo_footer.a482e83dcac5e94360f3.svg",
     "static/media/logo.svg": "/kultnastup/static/media/logo.d4e5cefffeb6f418b020.svg",
     "index.html": "/kultnastup/index.html",
     "static/media/arrow.svg": "/kultnastup/static/media/arrow.0f2daf63463fc6b2b009.svg",
     "static/media/arrow_hover.svg": "/kultnastup/static/media/arrow_hover.ac434a16e137c5b90af6.svg",
     "main.5c17b6e7.css.map": "/kultnastup/static/css/main.5c17b6e7.css.map",
-    "main.f24ac66e.js.map": "/kultnastup/static/js/main.f24ac66e.js.map"
+    "main.9067f2bc.js.map": "/kultnastup/static/js/main.9067f2bc.js.map"
   },
   "entrypoints": [
     "static/css/main.5c17b6e7.css",
-    "static/js/main.f24ac66e.js"
+    "static/js/main.9067f2bc.js"
   ]
 }
