@@ -5,7 +5,7 @@ const ManifestSection = () => {
   const [randomPositions, setRandomPositions] = useState([]);
   const [isEventPassed, setIsEventPassed] = useState(false); 
   const [loading, setLoading] = useState(true);
-  const eventDate = new Date("October 9, 2024 14:00:00").getTime();
+  const eventDate = new Date("October 9, 2024 14:45:00").getTime();
 
   const generateRandomPositions = () => {
     const positions = [];
