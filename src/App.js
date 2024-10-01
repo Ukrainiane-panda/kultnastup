@@ -38,7 +38,7 @@ function App() {
                 </li>
               </ul>
 
-              <a href='/' className='nav__button button'>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSeSr6jYMKUc-Ji1zYhSbBdZp2zLEtwLlX9JxAigCNuEtaVZGQ/viewform' className='nav__button button'>
                 Реєстрація
               </a>
             </div>
@@ -195,7 +195,7 @@ function App() {
                 </div>
               </div>
               <div className="program__block-action">
-                <a href="/" class="bttn bttn--primary">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSr6jYMKUc-Ji1zYhSbBdZp2zLEtwLlX9JxAigCNuEtaVZGQ/viewform" class="bttn bttn--primary">
                   <div className="bttn--icon"/>
                   ЗАРЕЄСТРУВАТИСЯ ДЛЯ УЧАСТІ В ФОРУМІ
                 </a>
