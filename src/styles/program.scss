@@ -72,7 +72,7 @@
 
 }
 
-.button {
+.bttn {
   display: flex;
   align-items: center;
   gap: 13px;
@@ -84,7 +84,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
   }
   &--primary {
     font-size: 20px;
@@ -95,5 +94,13 @@
     color: #FCC107;
   }
 
+  &:hover {
+    color: #9747FF;
+
+    .bttn--icon {
+      background-image: url(../icons/arrow_hover.svg);
+    }
+
+  }
 
 }

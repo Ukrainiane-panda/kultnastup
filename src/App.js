@@ -198,8 +198,8 @@ function App() {
                 </div>
               </div>
               <div className="program__block-action">
-                <a href="/" class="button button--primary">
-                  <div className="button--icon"/>
+                <a href="/" class="bttn bttn--primary">
+                  <div className="bttn--icon"/>
                   ЗАРЕЄСТРУВАТИСЯ ДЛЯ УЧАСТІ В ФОРУМІ
                 </a>
               </div>

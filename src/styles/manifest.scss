@@ -4,12 +4,11 @@
     display: flex;
     gap: 31px;
     flex-direction: column;
+    height: 546px;
     align-items: center;
     justify-content: center;
-    padding-top: 237px;
-    padding-bottom: 237px;
 
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserat", sans-serif;
 
     &--text {
       font-size: 32px;
@@ -39,9 +38,50 @@
     color: #FFFFFF
 
   }
+
+  &__word {
+    position: absolute;
+    top: 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 41.6px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0;
+    animation: fadeInOutMove 5s ease-in-out infinite; 
+  }
+
+  &__word-delay {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 41px;
+    opacity: 0;
+    animation: fadeInOutMove 5s ease-in-out infinite;
+    animation-delay: 3s;
+  }
+  
 }
 
-/* Додаємо стилі для лоадера */
+@keyframes fadeInOutMove {
+  0% {
+    opacity: 0;
+    transform: translateY(20);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
 .lds-ring {
   display: inline-block;
   position: relative;

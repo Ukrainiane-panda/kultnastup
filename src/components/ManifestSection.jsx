@@ -9,18 +9,22 @@ const ManifestSection = () => {
 
   const generateRandomPositions = () => {
     const positions = [];
-    const numberOfManifest = 8;
+    const numberOfManifest = 10;
     for (let i = 0; i < numberOfManifest; i++) {
-      const randomX = Math.random() * 90;
-      const randomY = Math.random() * 90; 
-      positions.push({ top: `${randomY}%`, left: `${randomX}%` });
+      const randomX = Math.random() * 80;
+      const randomY = Math.random() * 90;
+      positions.push({ top: `${randomY + 5}%`, left: `${randomX}%` });
     }
     setRandomPositions(positions);
   };
 
   useEffect(() => {
     generateRandomPositions();
+    const interval = setInterval(generateRandomPositions, 3000); 
+    return () => clearInterval(interval);
+  }, []);
 
+  useEffect(() => {
     const countdown = setInterval(() => {
       const now = new Date().getTime();
       const distance = eventDate - now;
@@ -41,7 +45,6 @@ const ManifestSection = () => {
 
     return () => clearInterval(countdown);
   }, [eventDate]);
-
 
   if (isEventPassed) {
     return (
@@ -69,15 +72,26 @@ const ManifestSection = () => {
             {randomPositions.map((pos, index) => (
               <div
                 key={index}
+                className="manifest__word"
                 style={{
                   position: "absolute",
                   top: pos.top,
                   left: pos.left,
-                  color: "white",
-                  fontSize: "32px",
-                  fontWeight: "500",
-                  lineHeight: "41px",
-                  opacity: 0.5,
+                  animationDelay: `${index * 0.5}s`,
+                }}
+              >
+                МАНІФЕСТ
+              </div>
+            ))}
+            {randomPositions.map((pos, index) => (
+              <div
+                key={index}
+                className="manifest__word-delay"
+                style={{
+                  position: "absolute",
+                  top: pos.top,
+                  left: pos.left,
+                  animationDelay: `${index * 0.5}s`,
                 }}
               >
                 МАНІФЕСТ
