@@ -1,5 +1,6 @@
 @import './utils/vars';
 @import './utils/fonts';
+@import './utils/mixins';
 @import './manifest.scss';
 @import './logo.scss';
 @import './nav.scss';
@@ -29,11 +30,41 @@ main {
   flex-direction: column;
   gap: 65px;
   margin: 65px 0;
+
+  @include onPhone {
+    margin: 0;
+  }
   
 }
 
 .wrapper {
   padding: 0 135px;
+
+  @include onTab {
+    padding: 0 75px;
+  }
+
+  @include onPhone {
+    padding: 0 19px;
+  }
+
+  &--for-menu {
+
+    @include onPhone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+  }
+
+  &--for-footer {
+    @include onPhone {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
 
 .container {

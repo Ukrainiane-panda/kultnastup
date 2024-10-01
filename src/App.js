@@ -1,9 +1,18 @@
 import './styles/index.scss';
 import ManifestSection from './components/ManifestSection';
+import { MenuNavForPhone } from './components/MenuNavForPhone';
+import { useState } from 'react';
 
 
 
 function App() {
+  const [transformMobileMenu, setTransformMobileMenu] = useState(-100);
+
+  const handleOpenMenu = () => {
+    setTransformMobileMenu(0);
+    document.body.style.overflow = 'hidden';
+  };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -14,10 +23,17 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <div className="wrapper">
+        <div className="wrapper wrapper--for-menu">
           <div className="logo" />
+          <button 
+            type="button" 
+            class="menu-for-smallScreen"
+            onClick={handleOpenMenu}
+          >
+            <span class="icon icon-menu"></span>
+          </button>
         </div>
-        <nav className="header__nav nav">
+        <nav className="header__nav nav nav--bigScreen">
           <div className="wrapper">
             <div className='nav__block'>
               <ul className="nav__list">
@@ -45,6 +61,10 @@ function App() {
           </div>
         </nav>
       </header>
+      <MenuNavForPhone
+        transformMobileMenu={transformMobileMenu}
+        setTransformMobileMenu={setTransformMobileMenu}
+      />
       <main>
         <section id="data">
           <div className="wrapper">
@@ -227,7 +247,7 @@ function App() {
         </section>
       </main>
       <footer className="footer">
-        <div className="wrapper">
+        <div className="wrapper wrapper--for-footer">
           <div className="footer__content">
           <div className="footer__logo" onClick={scrollToTop} style={{ cursor: "pointer" }} />
             <div className="footer__social">

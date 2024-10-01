@@ -1,8 +1,17 @@
 @import './utils/fonts';
+@import './utils/mixins';
 
 .nav {
   border-top: 2px solid #040603;
   border-bottom: 2px solid #040603;
+
+  &--bigScreen {
+    display: block;
+
+    @include onPhone {
+      display: none;
+    }
+  }
 
   &__block {
     display: flex;
@@ -61,6 +70,58 @@
       text-decoration: underline;
       background-color: #6522BC;
     }
+
+  }
+}
+
+.menu-for-smallScreen {
+  display: none;
+
+  @include onPhone {
+    display: block;
+
+  }
+
+}
+
+.burger-menu {
+  display: none;
+
+  @include onPhone {
+    display: block;
+
+  }
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+
+  background: linear-gradient(90deg, #FBBD0A 0%, #F9B413 7.73%, #F18F34 36.22%, #6522BC 93.54%, #5616CA 100%);
+  width: 100%;
+  height: 100vh;
+
+  transition: all 0.3s;
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #040603;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    padding: 0 35px 17px;
+
 
   }
 }

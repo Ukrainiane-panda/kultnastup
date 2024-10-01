@@ -1,10 +1,19 @@
 @import './utils/fonts';
+@import './utils/mixins';
 
 .footer {
+  @include onPhone {
+    margin-top: 15px;
+  }
   &__content {
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px;
+
+    @include onPhone {
+      flex-direction: column;
+      order: 2;
+    }
   }
 
   &__logo {
@@ -12,15 +21,29 @@
     width: 100%;
     background: url(../icons/Logo_footer.svg) no-repeat;
     background-size: contain;
+
+    @include onPhone {
+      height: 44px;
+      margin-bottom: 21px;
+
+    }
   }
 
   &__list {
     display: flex;
     list-style: none;
+
+    @include onPhone {
+      justify-content: space-between;
+    }
   }
 
   &__item {
     margin-right: 74px;
+
+    @include onPhone {
+      margin-right: 0;
+    }
 
     &--img {
       height: 74px;
@@ -62,6 +85,11 @@
 
   &__email {
     margin-bottom: 47px;
+
+    @include onPhone {
+      margin-bottom: 25px;
+      order: 1;
+    }
 
     &--link {
       font-family: 'Montserrat-Bold';

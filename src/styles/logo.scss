@@ -1,3 +1,5 @@
+@import './utils/mixins';
+
 .logo {
   height: 138px;
   width: auto;
@@ -5,4 +7,32 @@
   background-size: contain;
   background-position: center;
   margin: 65px 0 73px;
+
+  @include onPhone {
+    display: flex;
+    justify-content: start;
+    width: 268px;
+    height: 36px;
+    background-position: 0 0;
+    margin: 7px 0;
+  }
+}
+
+.menu-for-smallScreen {
+  display: none;
+
+  @include onPhone {
+    display: block;
+    background-color: transparent;
+    border: none;
+    height: 28px;
+    width: 28px;
+    background-image: url(../icons/Menu-Button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+
+  }
+
 }
