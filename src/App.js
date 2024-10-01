@@ -1,7 +1,4 @@
 import './styles/index.scss';
-import fb from './icons/facebook-fill.png';
-import instagram from './icons/instagram-fill.png';
-import youtube from './icons/youtube-fill.png';
 import ManifestSection from './components/ManifestSection';
 
 
@@ -237,23 +234,27 @@ function App() {
               <ul className="footer__list">
                 <li className="footer__item">
                   <a href="/" className="footer__link">
-                    <img src={fb} alt="Facebook" className="footer__item--img"/>
+                    <div className="footer__item--img footer__item--img-fb"/>
                   </a>
                 </li>
                 <li className="footer__item">
                   <a href="/" className="footer__link">
-                    <img src={instagram} alt="Instagram" className="footer__item--img"/>
+                    <div className="footer__item--img footer__item--img-inst"/>
                   </a>
                 </li>
                 <li className="footer__item">
                   <a href="/" className="footer__link">
-                    <img src={youtube} alt="YouTube" className="footer__item--img"/>
+                    <div className="footer__item--img footer__item--img-youtube"/>
                   </a>
                 </li>
               </ul>
-            </div>
-                  
+            </div>  
           </div>  
+          <div className="footer__email">
+            <a href='mailto:kultnastup@gmail.com'className="footer__email--link">
+              kultnastup@gmail.com
+            </a>
+          </div>
         </div>
 
       </footer>

@@ -2,7 +2,7 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 65px;
+    margin-bottom: 23px;
   }
 
   &__logo {
@@ -23,12 +23,52 @@
     &--img {
       height: 74px;
       width: 74px;
-      object-fit: contain;
+      transition: background 0.3s;
+
+
+      &-fb {
+        background-image: url(../icons/facebook-fill.png);
+        background-size: contain;
+
+        &:hover {
+          background-image: url(../icons/fb-hover.png);
+        }
+      }
+      &-inst {
+        background-image: url(../icons/instagram-fill.png);
+        background-size: contain;
+
+        &:hover {
+          background-image: url(../icons/inst-hover.png);
+        }
+      }
+      &-youtube {
+        background-image: url(../icons/youtube-fill.png);
+        background-size: contain;
+
+        &:hover {
+          background-image: url(../icons/youtube-hover.png);
+        }
+      }
 
     }
 
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  &__email {
+    margin-bottom: 47px;
+
+    &--link {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 19.5px;
+      text-align: left;
+      color: #040603;
+      text-transform: uppercase;
+    }
+
   }
 }
