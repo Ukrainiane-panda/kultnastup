@@ -211,7 +211,7 @@ function App() {
             <div class="container">
               <div class="background-layer"></div>
               <div class="content-layer content-layer--dark">
-                <h2 className="about__title">Про «Культнаступ»</h2>
+                <h2 className="about__title">Про Культнаступ</h2>
                 <div className="about__subtitle">Ключові засади Культнаступу</div>
                 <ul className="about__list">
                   <li className="about__item">Національна ідентичність є стрижнем, навколо якого будується державна єдність, безпека, економічний розвиток і зовнішній вплив країни. Нинішня війна є перш за все війною за ідентичність, а мова, культура, культурний продукт – не лише будівельним матеріалом нації, але і потужною зброєю.</li>
