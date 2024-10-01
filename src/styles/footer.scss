@@ -1,3 +1,5 @@
+@import './utils/fonts';
+
 .footer {
   &__content {
     display: flex;
@@ -62,8 +64,9 @@
     margin-bottom: 47px;
 
     &--link {
+      font-family: 'Montserrat-Bold';
       font-size: 15px;
-      font-weight: bold;
+      // font-weight: bold;
       line-height: 19.5px;
       text-align: left;
       color: #040603;

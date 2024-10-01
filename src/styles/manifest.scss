@@ -1,3 +1,5 @@
+@import './utils/fonts';
+
 .manifest {
   &__waiting {
     position: relative;
@@ -11,16 +13,18 @@
     font-family: "Montserat", sans-serif;
 
     &--text {
+      font-family: 'Montserrat-Bold', sans-serif;
       font-size: 32px;
-      font-weight: 700;
+      // font-weight: 700;
       line-height: 37.5px;
       text-align: left;
 
     }
 
     &--timer {
+      font-family: 'Montserrat-Bold', sans-serif;
       font-size: 100px;
-      font-weight: 700;
+      // font-weight: 700;
       line-height: 117.19px;
       text-align: left;
 
@@ -30,9 +34,9 @@
   &__words {
     position: absolute;
     top: 0;
-
+    font-family: 'Montserrat-Medium', sans-serif;
     font-size: 32px;
-    font-weight: 500;
+    // font-weight: 500;
     line-height: 41.6px;
     text-align: left;
     color: #FFFFFF
@@ -42,8 +46,9 @@
   &__word {
     position: absolute;
     top: 0;
+    font-family: 'Montserrat-Medium', sans-serif;
     font-size: 32px;
-    font-weight: 500;
+    // font-weight: 500;
     line-height: 41.6px;
     text-align: left;
     color: #FFFFFF;
@@ -52,9 +57,10 @@
   }
 
   &__word-delay {
+    font-family: 'Montserrat-Medium', sans-serif;
     color: white;
     font-size: 32px;
-    font-weight: 500;
+    // font-weight: 500;
     line-height: 41px;
     opacity: 0;
     animation: fadeInOutMove 5s ease-in-out infinite;

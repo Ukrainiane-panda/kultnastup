@@ -1,3 +1,5 @@
+@import './utils/fonts';
+
 .program {
   &__blocks {
     margin-bottom: 50px;
@@ -89,7 +91,8 @@
   }
   &--primary {
     font-size: 20px;
-    font-weight: 800;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    // font-weight: 800;
     line-height: 26px;
     text-align: left;
 

@@ -1,3 +1,5 @@
+@import './utils/fonts';
+
 .nav {
   border-top: 2px solid #040603;
   border-bottom: 2px solid #040603;
@@ -29,7 +31,8 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #040603;
-    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
+    // font-weight: 500;
     padding: 22px 35px 17px;
     transition: text-decoration 0.3;
 
@@ -45,9 +48,9 @@
     padding: 22px 35px 17px;
     background-color: #040603;
     color: #DBDBD7;
-
+    font-family: 'Montserrat-Medium', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    // font-weight: 500;
     line-height: 26px;
     text-transform: uppercase;
     text-decoration: none;
