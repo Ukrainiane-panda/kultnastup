@@ -52,7 +52,7 @@ function App() {
               <div class="background-layer"></div>
               <div class="content-layer">
                 <h1 className="data__time">Київ / 9 жовтня 2024 року <br />о 14:00</h1>
-                <h2 className="data__title">«Форум КультНаступу»</h2>
+                <h2 className="data__title">Форум КультНаступу</h2>
               </div>
             </div>
           </div>
