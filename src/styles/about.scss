@@ -7,10 +7,11 @@
     border-bottom: 1px solid #DBDBD7;
     margin-bottom: 32px;
     text-transform: uppercase;
-    font-family: 'Montserrat-Regular', sans-serif;
+    font-family: 'Montserrat-Regular';
     font-size: 57px;
     line-height: 74.1px;
     text-align: left;
+    color: #DBDBD7;
   }
 
   &__subtitle {
@@ -19,6 +20,7 @@
     line-height: 29.9px;
     text-align: left;
     margin-bottom: 32px;
+    color: #DBDBD7;
   }
 
   &__list {
@@ -26,11 +28,12 @@
   }
 
   &__item {
-    font-family: 'Montserrat-light', sans-serif;
+    font-family: 'Montserrat-light';
     font-size: 23px;
     font-weight: 300;
     line-height: 29.9px;
     text-align: justify;
+    color: #DBDBD7;
     margin-bottom: 30px;
 
     &:last-child {
