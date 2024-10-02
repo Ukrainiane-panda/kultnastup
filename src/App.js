@@ -263,7 +263,7 @@ function App() {
                   </a>
                 </li>
                 <li className="footer__item">
-                  <a href="/" className="footer__link">
+                  <a href="https://www.youtube.com/@Kultnastup" className="footer__link">
                     <div className="footer__item--img footer__item--img-youtube"/>
                   </a>
                 </li>

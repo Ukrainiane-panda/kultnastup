@@ -13,12 +13,23 @@
 
     font-family: "Montserat", sans-serif;
 
+    @include onPhone {
+      gap: 0;
+      height: 259.02px;
+    }
+
     &--text {
       font-family: 'Montserrat-Bold', sans-serif;
       font-size: 32px;
       font-weight: 700;
       line-height: 37.5px;
       text-align: left;
+
+      @include onPhone {
+        font-size: 23px;
+        line-height: 26px;
+      }
+
 
     }
 
@@ -29,13 +40,18 @@
       line-height: 117.19px;
       text-align: left;
 
+      @include onPhone {
+        font-size: 69px;
+        line-height: 80.16px;
+      }
+
     }
   } 
 
   &__words {
     position: absolute;
     top: 0;
-    font-family: 'Montserrat-Medium', sans-serif;
+    font-family: 'Montserrat-Medium';
     font-size: 32px;
     font-weight: 500;
     line-height: 41.6px;
@@ -55,6 +71,11 @@
     color: #FFFFFF;
     opacity: 0;
     animation: fadeInOutMove 5s ease-in-out infinite; 
+
+    @include onPhone {
+      font-size: 13px;
+      line-height: 16.9px;
+    }
   }
 
   &__word-delay {
@@ -66,6 +87,12 @@
     opacity: 0;
     animation: fadeInOutMove 5s ease-in-out infinite;
     animation-delay: 3s;
+
+    
+    @include onPhone {
+      font-size: 13px;
+      line-height: 16.9px;
+    }
   }
   
 }
