@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kultnastup/static/css/main.4052ddb8.css",
+    "main.css": "/kultnastup/static/css/main.63bc2b31.css",
     "main.js": "/kultnastup/static/js/main.84667136.js",
     "static/media/Montserrat-LightItalic.ttf": "/kultnastup/static/media/Montserrat-LightItalic.ac3843da62f0afac7929.ttf",
     "static/media/Montserrat-ExtraBold.ttf": "/kultnastup/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
@@ -15,11 +15,11 @@
     "static/media/arrow.svg": "/kultnastup/static/media/arrow.0f2daf63463fc6b2b009.svg",
     "static/media/arrow_hover.svg": "/kultnastup/static/media/arrow_hover.ac434a16e137c5b90af6.svg",
     "static/media/icon_close.svg": "/kultnastup/static/media/icon_close.ff5ccf38455150b909e0.svg",
-    "main.4052ddb8.css.map": "/kultnastup/static/css/main.4052ddb8.css.map",
+    "main.63bc2b31.css.map": "/kultnastup/static/css/main.63bc2b31.css.map",
     "main.84667136.js.map": "/kultnastup/static/js/main.84667136.js.map"
   },
   "entrypoints": [
-    "static/css/main.4052ddb8.css",
+    "static/css/main.63bc2b31.css",
     "static/js/main.84667136.js"
   ]
 }
