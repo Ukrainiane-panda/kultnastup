@@ -86,7 +86,7 @@ function App() {
               <div class="content-layer">
                 <div className="program__blocks">
                   <div className="program__block-title">
-                    <h3 className="program__title">Програма <br /> форуму</h3>
+                    <h3 className="program__title">Програма форуму</h3>
                     <h3 className="program__data">Київ <br /> 9 жовтня <br /> 2024</h3>
                   </div>
                   <div className="program__block-timeline">
@@ -253,7 +253,7 @@ function App() {
             <div className="footer__social">
               <ul className="footer__list">
                 <li className="footer__item">
-                  <a href="/" className="footer__link">
+                  <a href="https://www.facebook.com/profile.php?id=61566660901073&mibextid=ZbWKwL" className="footer__link">
                     <div className="footer__item--img footer__item--img-fb"/>
                   </a>
                 </li>

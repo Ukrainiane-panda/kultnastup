@@ -4,6 +4,10 @@
 .program {
   &__blocks {
     margin-bottom: 50px;
+
+    @include onPhone {
+      margin-bottom: 30px;
+    }
   }
   &__block-title {
     display: flex;
@@ -11,6 +15,10 @@
     color: #040603;
     margin-bottom: 55px;
     text-transform: uppercase;
+
+    @include onPhone {
+      margin-bottom: 10px;
+    }
   }
 
   &__block-timeline {
@@ -30,14 +38,31 @@
       border-bottom: none;
       margin-bottom: 40px;
     }
+
+    @include onPhone {
+      flex-direction: column;
+      gap: 4px;
+      border: none;
+      padding-bottom: 0;
+      margin-bottom: 20px;
+    }
   }
 
   &__title {
+    width: min-content;
     font-family: 'Montserrat-Regular';
     font-size: 57px;
     font-weight: 400;
     line-height: 74.1px;
     text-align: left;
+
+    @include onPhone {
+      width: 100%;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31.2px;
+      color: #040603;
+    }
     
   }
 
@@ -48,14 +73,28 @@
     line-height: 41.6px;
     text-align: left;
 
+    @include onPhone {
+      display: none;
+    }
+
   }
 
   &__time {
+    font-family: 'Montserrat-SemiBold';
     width: 175px;
     font-size: 23px;
     font-weight: 600;
     line-height: 29.9px;
     text-align: left;
+
+    @include onPhone {
+      font-family: 'Montserrat-Bold';
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 18.2px;
+      text-align: left;
+
+    }
   }
 
   &__description {
@@ -65,6 +104,11 @@
     font-weight: 300;
     line-height: 29.9px;
     text-align: left;
+
+    @include onPhone {
+      font-size: 14px;
+      line-height: 18.2px;
+    }
   }
 
   &__block-action {
@@ -75,6 +119,11 @@
     background-color: #1E1E1E;
     padding: 47px 65px 55px 70px;
     z-index: 3;
+
+    @include onPhone {
+      width: calc(100% - 11px);
+      padding: 18px 25px;
+    }
   }
 
 }
@@ -92,6 +141,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
+    @include onPhone {
+      width: 24.36px;
+      height: 14.6px;
+
+    }
   }
   &--primary {
     font-size: 20px;
@@ -101,6 +156,11 @@
     text-align: left;
 
     color: #FCC107;
+
+    @include onPhone {
+      font-size: 16px;
+      line-height: 20.8px;
+    }
   }
 
   &:hover {

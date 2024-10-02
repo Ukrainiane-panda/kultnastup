@@ -33,6 +33,7 @@ main {
 
   @include onPhone {
     margin: 0;
+    gap: 24px;
   }
   
 }
@@ -84,6 +85,11 @@ main {
   border: 2px solid #000000;
   z-index: 1;
 
+  @include onPhone {
+    width: calc(100% - 8px);
+    height: calc(100% - 11px);
+  }
+
 }
 
 .content-layer {
@@ -102,5 +108,11 @@ main {
   &--dark {
     background-color: #1E1E1E;
     color: #fff;
+  }
+
+  @include onPhone {
+    padding: 30px 22px 27px;
+    width: calc(100% - 11px);
+    margin-top: 8px;
   }
 }

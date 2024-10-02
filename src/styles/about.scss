@@ -12,6 +12,15 @@
     line-height: 74.1px;
     text-align: left;
     color: #DBDBD7;
+
+    @include onPhone {
+      font-family: 'Montserrat-Light';
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 31.2px;
+      padding-bottom: 10px;
+      margin-bottom: 21px;
+    }
   }
 
   &__subtitle {
@@ -21,10 +30,22 @@
     text-align: left;
     margin-bottom: 32px;
     color: #DBDBD7;
+
+    @include onPhone {
+      font-family: 'Montserrat-Medium';
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 22.27px;
+    }
   }
 
   &__list {
     margin-left: 40px;
+
+    @include onPhone {
+      list-style: none;
+      margin-left: 0;
+    }
   }
 
   &__item {
@@ -35,6 +56,20 @@
     text-align: justify;
     color: #DBDBD7;
     margin-bottom: 30px;
+
+    @include onPhone {
+      font-family: 'Montserrat-Light';
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 22.27px;
+      text-align: left;
+      margin-bottom: 25px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+    }
 
     &:last-child {
       margin-bottom: 0;
