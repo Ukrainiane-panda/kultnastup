@@ -109,6 +109,16 @@
       font-size: 14px;
       line-height: 18.2px;
     }
+
+    &--italic {
+      font-family: 'Montserrat-LightItalic';
+      font-style: italic;
+
+      @include onPhone {
+        font-family: 'Montserrat-Light';
+        font-style: normal;
+      }
+    }
   }
 
   &__block-action {
@@ -150,7 +160,7 @@
   }
   &--primary {
     font-size: 20px;
-    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-family: 'Montserrat-ExtraBold';
     font-weight: 800;
     line-height: 26px;
     text-align: left;

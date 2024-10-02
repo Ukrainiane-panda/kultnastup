@@ -4,6 +4,12 @@
   font-weight: 300;
   src: local('Montserrat-Light'), url(../../fonts/Montserrat-Light.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Montserrat-LightItalic';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Montserrat-LightItalic'), url(../../fonts/Montserrat-LightItalic.ttf) format('truetype');
+}
 
 @font-face {
   font-family: 'Montserrat-Medium';

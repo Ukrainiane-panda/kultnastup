@@ -111,7 +111,7 @@ function App() {
                         </strong>
                         <br />
                         <br />
-                        <i>
+                        <div className="program__description--italic">
                           Микола Точицький, міністр культури та стратегічних комунікацій України
                           <br />
                           <br />
@@ -131,7 +131,7 @@ function App() {
                           <br />
                           <br />
                           Вступне слово і модерація - Данило Лубківський, дипломат, директор Київського безпекового форуму
-                        </i>
+                        </div>
                       </p>
                     </div>
                     <div className="program__block-item">
@@ -149,7 +149,7 @@ function App() {
                         </strong>
                         <br />
                         <br />
-                        <i>
+                        <div className="program__description--italic">
                           Михайло Федоров, віце-прем'єр-міністр - міністр цифрової трансформації України 
                           <br />
                           <br />
@@ -172,7 +172,7 @@ function App() {
                           <br />
                           <br />
                           Модерація - Сергій Стуканов, журналіст, теле- та радіоведучий, координатор руху «Простір свободи»
-                        </i>
+                        </div>
                       </p>
                     </div>
                     <div className="program__block-item">
@@ -183,7 +183,7 @@ function App() {
                           </strong>
                         <br />
                         <br />
-                        <i>
+                        <div className="program__description program__description--italic">
                           Богдан Логвиненко, журналіст, видавець, громадський діяч, Ukraїner
                           <br />
                           <br />
@@ -203,7 +203,7 @@ function App() {
                           <br />
                           <br />
                           Модерація -?
-                        </i>
+                        </div>
                       </p>
                     </div>
                     <div className="program__block-item">
