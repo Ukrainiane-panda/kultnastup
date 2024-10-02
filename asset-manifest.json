@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kultnastup/static/css/main.86e28b38.css",
-    "main.js": "/kultnastup/static/js/main.f5551223.js",
-    "static/media/Montserrat-LightItalic.ttf": "/kultnastup/static/media/Montserrat-LightItalic.ac3843da62f0afac7929.ttf",
-    "static/media/Montserrat-ExtraBold.ttf": "/kultnastup/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
-    "static/media/Montserrat-Bold.ttf": "/kultnastup/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
-    "static/media/Montserrat-SemiBold.ttf": "/kultnastup/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
-    "static/media/Montserrat-Medium.ttf": "/kultnastup/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
-    "static/media/Montserrat-Light.ttf": "/kultnastup/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
-    "static/media/Montserrat-Regular.ttf": "/kultnastup/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/Logo_footer.svg": "/kultnastup/static/media/Logo_footer.a482e83dcac5e94360f3.svg",
-    "static/media/logo.svg": "/kultnastup/static/media/logo.d4e5cefffeb6f418b020.svg",
-    "index.html": "/kultnastup/index.html",
-    "static/media/arrow.svg": "/kultnastup/static/media/arrow.0f2daf63463fc6b2b009.svg",
-    "static/media/arrow_hover.svg": "/kultnastup/static/media/arrow_hover.ac434a16e137c5b90af6.svg",
-    "static/media/icon_close.svg": "/kultnastup/static/media/icon_close.ff5ccf38455150b909e0.svg",
-    "main.86e28b38.css.map": "/kultnastup/static/css/main.86e28b38.css.map",
-    "main.f5551223.js.map": "/kultnastup/static/js/main.f5551223.js.map"
+    "main.css": "./static/css/main.a2602563.css",
+    "main.js": "./static/js/main.f5551223.js",
+    "static/media/Montserrat-LightItalic.ttf": "./static/media/Montserrat-LightItalic.ac3843da62f0afac7929.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "./static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
+    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "./static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Medium.ttf": "./static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Light.ttf": "./static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Logo_footer.svg": "./static/media/Logo_footer.a482e83dcac5e94360f3.svg",
+    "static/media/logo.svg": "./static/media/logo.d4e5cefffeb6f418b020.svg",
+    "index.html": "./index.html",
+    "static/media/arrow.svg": "./static/media/arrow.0f2daf63463fc6b2b009.svg",
+    "static/media/arrow_hover.svg": "./static/media/arrow_hover.ac434a16e137c5b90af6.svg",
+    "static/media/icon_close.svg": "./static/media/icon_close.ff5ccf38455150b909e0.svg",
+    "main.a2602563.css.map": "./static/css/main.a2602563.css.map",
+    "main.f5551223.js.map": "./static/js/main.f5551223.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e28b38.css",
+    "static/css/main.a2602563.css",
     "static/js/main.f5551223.js"
   ]
 }
