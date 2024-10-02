@@ -42,9 +42,8 @@
     @include onPhone {
       flex-direction: column;
       gap: 4px;
-      border: none;
-      padding-bottom: 0;
-      margin-bottom: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
     }
   }
 
