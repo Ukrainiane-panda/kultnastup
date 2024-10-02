@@ -21,10 +21,9 @@ export const MenuNavForPhone = ({
           <div className="logo" />
           <button 
             type="button" 
-            class="menu-for-smallScreen"
+            class="close-for-smallScreen"
             onClick={handleCloseMenu}
           >
-            <span class="icon icon-menu"></span>
           </button>
         </div>
       </div>

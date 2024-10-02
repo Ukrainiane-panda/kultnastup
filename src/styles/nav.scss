@@ -120,7 +120,13 @@
     color: #040603;
     font-family: 'Montserrat-Medium', sans-serif;
     font-weight: 500;
-    padding: 0 35px 17px;
+    padding: 0 35px;
+    margin-bottom: 20px;
+    transition: text-decoration 0.3;
+
+    &:hover {
+      text-decoration: underline;
+    }
 
 
   }

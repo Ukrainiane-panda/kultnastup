@@ -36,3 +36,19 @@
   }
 
 }
+
+.close-for-smallScreen {
+   @include onPhone {
+      display: block;
+      background-color: transparent;
+      border: none;
+      height: 21px;
+      width: 21px;
+      background-image: url(../icons/icon_close.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      cursor: pointer;
+
+   }
+}
